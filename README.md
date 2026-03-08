@@ -25,6 +25,13 @@ wget -qO install.sh http://fhdh.cnfte.top/installer.sh && sudo bash install.sh
 curl -sL http://fhdh.cnfte.top/installer.sh | sudo bash
 ```
 
+或是你的环境为Windows/Android Termux
+无需使用上面的安装脚本，直接下载源码的netcarry.py文件在cmd/termux命令行中python调用即可
+
+```bash
+python netcarry.py <目标IP或域名> [参数]
+```
+
 安装完成后，你可以直接在任何目录下输入 `netcarry` 来使用。
 
 ## 命令格式
