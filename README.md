@@ -46,7 +46,7 @@ WordPress 性能压测工具。采用 **Go 后端 Agent + PHP 单文件控制面
 ### 快速部署
 1.  **Agent 安装 (压测机)**:
     ```bash
-    sudo wget http://fhdh.cnfte.top/installgo.sh && bash install.sh --url http://fhdh.cnfte.top/wpbench --password {密钥}
+    sudo wget -O install.sh http://fhdh.cnfte.top/installgo.sh && bash install.sh --url http://fhdh.cnfte.top/wpbench --password {密钥}
     ```
 2.  **面板部署 (管理机)**:
     将 `index.php` 放入任意 PHP Web 目录，通过浏览器访问即可配置节点并开始测试。
